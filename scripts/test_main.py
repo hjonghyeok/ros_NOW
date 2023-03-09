@@ -12,7 +12,7 @@ rospy.init_node('teleop', anonymous=True)
 # publisher
 publisher = rospy.Publisher('/main', Twist, queue_size=1)
 
-spin_msg = "" # hihi
+spin_msg = "" # hihi 테스트테에스트
 
 
 #cam
